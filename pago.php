@@ -25,16 +25,16 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'a2plcpnl0465.prod.iad2.secureserver.net';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = '​ecuadortreasure@pilisimas.com';                 // SMTP username
-    $mail->Password = '​Estaeslacontrasena1';                           // SMTP password
+    $mail->Username = 'change';                 // SMTP username
+    $mail->Password = 'change';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('ecuadortreasure@pilisimas.com', 'Ecuador Treasure');
-    $mail->addAddress('info@ecuadortreasure.com', 'Ecuador Treasure');     // Add a recipient
+    $mail->setFrom('change@change.com', 'change');
+    $mail->addAddress('change', 'change');     // Add a recipient
     $mail->addAddress($email);     // Add a recipient
-    $mail->addReplyTo('info@ecuadortreasure.com', 'Information');
+    $mail->addReplyTo('change', 'change');
 
 
     //Content
